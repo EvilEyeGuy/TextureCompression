@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>EvilEyeGuy.TextureBudget</packageId>
+  <name>Texture Budget</name>
+  <author>EvilEyeGuy</author>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <description>Reduces the resolution of textures from chosen mods while the game loads, to save video memory. The original mod files are not changed.
+
+RimWorld 1.7 runs on Vulkan and has to stay within the video memory budget the driver reports. Large retexture packs can fill that budget, which can crash the graphics driver.
+
+- The mod settings list every active mod with its texture count and current video memory use, largest first.
+- Per mod: 100 %, 50 % or 25 % resolution. 50 % uses a quarter of the memory.
+- Optional limit for all mods: textures larger than 2048, 1024 or 512 pixels are reduced until they fit. Floor textures are left out, because they are tiled over many cells. Textures without enough smaller levels stay larger; the settings show how many.
+- The game keeps every texture as a mipmap chain in its texture cache. Texture Budget hands the game the chain without its largest levels, so textures are created small from the start, load on demand and can be swapped out of video memory like in the base game.
+- On the first start with new textures the cache entry is built before the texture is loaded, so the full size never reaches video memory.
+- Changes apply after a restart. The settings show the expected total before you restart.
+
+Load order does not matter.</description>
+</ModMetaData>

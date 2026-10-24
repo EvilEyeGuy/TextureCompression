@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TB_SettingsCategory>Texture Budget</TB_SettingsCategory>
+  <TB_Explain>Lower resolution for the textures of single mods saves video memory. 50 % uses a quarter of the memory, 25 % a sixteenth. Textures are created small while loading and can still be swapped out of video memory like in the base game. The limit for all mods leaves floor textures alone, because they are tiled over many cells. Changes apply after a restart.</TB_Explain>
+  <TB_MaxSize>Reduce all textures larger than</TB_MaxSize>
+  <TB_Off>Off</TB_Off>
+  <TB_Total>Now {0}, after restart about {1}</TB_Total>
+  <TB_Mod>Mod</TB_Mod>
+  <TB_Textures>Textures</TB_Textures>
+  <TB_Now>Now</TB_Now>
+  <TB_Next>After restart</TB_Next>
+  <TB_Blocked>{0} textures of this mod cannot be reduced that far, because they lack smaller levels or would shrink below 4 pixels. They stay larger than set.</TB_Blocked>
+</LanguageData>

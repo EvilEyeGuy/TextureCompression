@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TB_SettingsCategory>Texture Budget</TB_SettingsCategory>
+  <TB_Explain>Niedrigere Auflösung für die Texturen einzelner Mods spart Grafikspeicher. 50 % braucht ein Viertel des Speichers, 25 % ein Sechzehntel. Die Texturen werden gleich beim Laden klein angelegt und bleiben wie im Grundspiel auslagerbar. Die Grenze für alle Mods lässt Bodentexturen aus, weil sie über viele Felder gekachelt werden. Änderungen wirken nach einem Neustart.</TB_Explain>
+  <TB_MaxSize>Alle Texturen verkleinern, die größer sind als</TB_MaxSize>
+  <TB_Off>Aus</TB_Off>
+  <TB_Total>Jetzt {0}, nach Neustart etwa {1}</TB_Total>
+  <TB_Mod>Mod</TB_Mod>
+  <TB_Textures>Texturen</TB_Textures>
+  <TB_Now>Jetzt</TB_Now>
+  <TB_Next>Nach Neustart</TB_Next>
+  <TB_Blocked>{0} Texturen dieses Mods lassen sich nicht so weit verkleinern, weil ihnen kleinere Stufen fehlen oder sie sonst unter 4 Pixel schrumpfen würden. Sie bleiben größer als eingestellt.</TB_Blocked>
+</LanguageData>
